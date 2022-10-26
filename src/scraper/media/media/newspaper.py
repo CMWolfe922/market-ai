@@ -1,6 +1,8 @@
 import newspaper
 import scrapy
-import os, sys, re
+import os
+import sys
+import re
 from loguru import logger
 
 
@@ -12,3 +14,5 @@ class NewsSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
         urls = [line for line in self.file]
+        for url in urls:
+            yield scrapy.Request(url)
