@@ -15,3 +15,5 @@ class MediaPipeline:
 
 
 class NewsPaperPipeline:
+    def process_item(self, item, spider):
+        return item
