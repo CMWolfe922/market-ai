@@ -62,9 +62,9 @@ CONCURRENT_REQUESTS = 32
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'places.pipelines.PlacesPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'places.pipelines.MongoDBPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -100,5 +100,5 @@ LOG_FILE = "tmp/scrapy.log"
 
 # Spider Variables:
 MONGO_URI = "mongodb://root:root@localhost:27017"
-MONGO_DATABASE = "main"
-MONGO_COLL_MEETINGS = "market_media"
+MONGO_DATABASE = "places"
+MONGO_COLL_MEETINGS = "aa_meetings"

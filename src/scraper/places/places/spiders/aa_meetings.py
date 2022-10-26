@@ -1,5 +1,9 @@
 import scrapy
 from ..items import MeetingItem
+from bs4 import BeautifulSoup as bs
+import pandas as pd
+import lxml
+
 
 class AaMeetingsSpider(scrapy.Spider):
     name = 'aa_meetings'
@@ -25,17 +29,20 @@ class AaMeetingsSpider(scrapy.Spider):
         page_links = response.xpath('//div[@class="fui-card-body"]//a/@href').getall()
         for link in page_links:
             self.logger.info('Retrieving data from %s', link)
-            yield scrapy.Request(response.urljoin(link), self.parse_meeting)
+            yield scrapy.Request(response.urljoin(link), self.parse_meeting_page)
 
 
-    def parse_meeting(self, response):
+    def parse_meeting_page(self, response):
         self.logger.info('Retrieving item data from %s', response.url)
 
         # meeting name:
         name = response.css('div.fui-card-body p.weight-300::text').get()
 
+        # Get link to meeting page
+        link = response.url
+
         # get address data:
-        address = response.css('div.fui-card-body address.weight-300::text').get()
+        street = response.css('div.fui-card-body address.weight-300::text').get()
 
         try:
             # make sure that all of the card values are scraped and valid
@@ -59,30 +66,65 @@ class AaMeetingsSpider(scrapy.Spider):
             # make sure that all of the table values are scraped and valid
             # to avoid raising a ValueError exception
             table = response.xpath('//*[@class="table fui-table"]//tr//td/text()').getall()
-            if len(table) > 3:
-                # extract table data day, time and info:
-                try:
-                    a,b,c = 1,2,3
-                    # incrementor
-                    i = 3
 
+            if len(table) == 3:
+                day, time, info = table
+
+            elif len(table) == 2:
+                day, time = table
+                info = 'info'
+
+            elif len(table) == 1:
+                day = table
+                time, info  = 'time', 'info'
+
+            elif len(table) > 3:
+                    # extract table data day, time and info:
+                try:
+                    if len(table) == 6:
+                        day = ', '.join([table[0], table[3]])
+                        time = ', '.join([table[1], table[4]])
+                        info = ', '.join([table[2], table[5]])
+
+                        schedule = {'day': [table[0], table[3]],
+                                    'time': [table[1], table[4]],
+                                    'info': [table[2], table[5]]}
+
+                    elif len(table) == 9:
+                        day = ', '.join([table[0], table[3], table[6]])
+                        time = ', '.join([table[1], table[4], table[7]])
+                        info = ', '.join([table[2], table[5], table[8]])
+
+                        schedule = {'day': [table[0], table[3], table[6]],
+                                    'time': [table[1], table[4], table[7]],
+                                    'info': [table[2], table[5], table[8]]}
+
+                    elif len(table) == 12:
+                        day = ', '.join([table[0], table[3], table[6], table[9]])
+                        time = ', '.join([table[1], table[4], table[7], table[10]])
+                        info = ', '.join([table[2], table[5], table[8], table[11]])
+
+                        schedule = {'day': [table[0], table[3], table[6], table[9]],
+                                    'time': [table[1], table[4], table[7], table[10]],
+                                    'info': [table[2], table[5], table[8], table[11]]}
+
+                    elif len(table) == 15:
+                        day = ', '.join([table[0], table[3], table[6], table[9], table[12]])
+                        time = ', '.join([table[1], table[4], table[7], table[10], table[13]])
+                        info = ', '.join([table[2], table[5], table[8], table[11], table[14]])
+
+                        schedule = {'day': [table[0], table[3], table[6], table[9], table[12]],
+                                    'time': [table[1], table[4], table[7], table[10], table[13]],
+                                    'info': [table[2], table[5], table[8], table[11], table[14]]}
 
                 except Exception as e:
                     return f"Table with value greater than 3 unpacking failed | {e} | table length {table_len} | {day} {time} {info}"
 
-            elif len(table) == 3:
-                day, time, info = table
-            elif len(table) == 2:
-                day, time = table
-                info = 'info'
-            elif len(table) == 1:
-                day = table
-                time, info  = 'time', 'info'
             else:
                 day, time, info = 'day', 'time', 'info'
 
         except ValueError as ve:
             self.logger.error(f'{ve} Exception Raised..')
 
-        item = MeetingItem(name=name, address=address, city=city, state=state, zipcode=zipcode, day=day, time=time, info=info)
+        item = MeetingItem(name=name, link=link, street=street, city=city, state=state, zipcode=zipcode, day=day, time=time, info=info)
         yield item

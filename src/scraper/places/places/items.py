@@ -9,7 +9,8 @@ class MeetingItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     name = Field()
-    address = Field()
+    link = Field()
+    street = Field()
     city = Field()
     state = Field()
     zipcode = Field()
