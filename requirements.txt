@@ -16,4 +16,3 @@ selenium
 praw
 newspaper3k
 gensim
-pattern
