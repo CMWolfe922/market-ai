@@ -12,7 +12,6 @@
 # remember that I need to make sure that the params for pricehistory should
 # be choices for people. so they can choose their own params without picking
 # unauthorized params
-import click
 import os
 from bs4 import BeautifulSoup as bs
 import string
@@ -403,3 +402,10 @@ def price_history(symbol, apikey, params:dict):
     # df["symbol"] = symbol I DONT NEED THIS RIGHT NOW
 
     return df
+
+
+# =========================================================== #
+# Building new stock data functions to get the data I need
+# Some of these will be scraping the internet for the
+# data needed.
+# =========================================================== #
