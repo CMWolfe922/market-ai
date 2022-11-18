@@ -174,3 +174,12 @@
 [32m2022-11-17 23:05:14.369[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
 [32m2022-11-17 23:37:57.274[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
 [32m2022-11-17 23:38:33.448[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:54:44.459[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:55:50.240[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:08:51.134[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:12:39.064[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:15:45.153[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:16:52.598[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:19:04.587[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-18 00:19:51.716[0m | [32m[1mSUCCESS [0m | [36m__main__[0m:[36mstore_pricehistory_data[0m:[36m5[0m - [32m[1m[+] Price history Data Stored.[0m
+[32m2022-11-18 01:03:15.013[0m | [1mINFO    [0m | [36m__main__[0m:[36mchunks[0m:[36m15[0m - [1m[+] Stocks chunked into groups of 200..[0m

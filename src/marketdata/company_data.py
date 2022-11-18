@@ -69,12 +69,11 @@ def price_history(symbol, apikey=TDA_APIKEY, params:dict=params):
     df = pd.DataFrame.from_dict(extracted_candles_list, orient="columns")
     df.rename(columns={"datetime": "date"}, inplace=True)
     df["date"] = [x for x in df["date"] // 10 ** 3]
-    df.set_index(["date"], inplace=True)
-
     # This is to insert the companies symbol into the data frame
     # in every row next to the date_time so that I can identify
     # who the data belongs to.
-    # df["symbol"] = symbol I DONT NEED THIS RIGHT NOW
+    df["symbol"] = symbol
+    df.set_index(["date", 'symbol'], inplace=True)
 
     return df
 

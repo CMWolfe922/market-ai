@@ -26,25 +26,22 @@ marketdata_db = MYSQL_MARKETDATA_DB
 pricehistory_db = MYSQL_PRICEHISTORY_DB
 
 # CREATE A FUNCTION FOR CONNECTING TO EACH DATABASE:
-def create_marketdata_engine():
+def create_marketdata_engine(connection_uri):
     DB = MYSQL_MARKETDATA_DB
-    connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306/{DB}"
+    connection_uri = connection_uri + "/" + DB
     # connection_uri = create_mysql_uri('mysql', MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST)
     _engine = create_engine(connection_uri, echo=True)
     logger.info("[+] marketdata database engine created successfully")
     return _engine
 
 
-def create_pricehistory_engine():
+def create_pricehistory_engine(connection_uri):
     DB = MYSQL_PRICEHISTORY_DB
-    connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306/{DB}"
+    connection_uri = connection_uri + "/" + DB
     _engine = create_engine(connection_uri, echo=True)
     logger.info("[+] pricehistory database engine created successfully")
     return _engine
 
-
-# CONNECTION URI FOR SQLALCHEMY TO CREATE ENGINE. MUST ADD /{DB} TO END WHEN USED
-connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306"
 
 
 # CREATE A FUNCTION TO SELECT SYMBOLS FROM MYSQL DATABASE

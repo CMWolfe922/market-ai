@@ -2361,3 +2361,17 @@
 11/17/2022 at 23:05:14 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
 11/17/2022 at 23:37:57 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
 11/17/2022 at 23:38:33 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:54:44 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:55:50 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:08:51 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:12:39 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:15:45 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:16:52 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:19:04 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:19:51 | SUCCESS | __main__ | [+] Price history Data Stored.
+11/18/2022 at 00:37:38 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:40:12 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:46:54 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 00:49:13 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/18/2022 at 01:03:15 | INFO | __main__ | [+] Stocks chunked into groups of 200..
+11/18/2022 at 01:03:15 | INFO | __main__ | [+] Stocks chunked into groups of 200..
