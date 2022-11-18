@@ -13,8 +13,9 @@ from pytz import timezone
 import requests, os, json
 import pandas as pd
 from loguru import logger
-from time import time
+import time
 from datetime import datetime
+import asyncio
 
 PATH = "../tmp/"
 FILE = "scraper.log"
@@ -27,7 +28,23 @@ today_fmt = today.strftime("%m-%d-%Y")
 TDA_BASE = "https://api.tdameritrade.com/v1/"
 TDA_APIKEY = os.environ.get('TDA_APIKEY')
 
-def price_history(symbol, apikey, params:dict):
+
+# DATE BUILDING AND MANAGEMENT
+today = datetime.today().astimezone(timezone("US/Central"))
+today_fmt = today.strftime("%m-%d-%Y")
+
+# CREATE THE LOGGER FOR THIS SCRIPT:
+log_path = str(os.path.pardir) + '/logs/'
+base_fmt = "[{time:YYYY-MM-DD at HH:mm:ss}]|[{name}-<lvl>{message}</lvl>]"
+logger.add(log_path+"quotes.log", rotation="2 MB",
+           colorize=True, enqueue=True, catch=True)
+
+
+from .utilities import Params
+params = Params()
+params = params.ten_year_daily
+
+def price_history(symbol, apikey=TDA_APIKEY, params:dict=params):
     """
     :param stock: company symbol/ticker
     :Example: MSFT 10 day minute 10
@@ -37,8 +54,6 @@ def price_history(symbol, apikey, params:dict):
     url = "https://api.tdameritrade.com/v1/marketdata/{}/pricehistory".format(
         symbol
     )
-
-    params = params
 
     # Other users will need their own TD Ameritrade API Key
     params.update({"apikey": apikey})
@@ -52,31 +67,17 @@ def price_history(symbol, apikey, params:dict):
 
     # Create data frame from extracted data
     df = pd.DataFrame.from_dict(extracted_candles_list, orient="columns")
-    df.rename(columns={"datetime": "unix"}, inplace=True)
-    df["unix"] = [x for x in df["unix"] // 10 ** 3]
+    df.rename(columns={"datetime": "date"}, inplace=True)
+    df["date"] = [x for x in df["date"] // 10 ** 3]
+    df.set_index(["date"], inplace=True)
 
     # This is to insert the companies symbol into the data frame
-    # in every row next to the unix_time so that I can identify
+    # in every row next to the date_time so that I can identify
     # who the data belongs to.
     # df["symbol"] = symbol I DONT NEED THIS RIGHT NOW
 
     return df
 
-
-# QUOTE DATA FROM TD AMERITRADE
-# This script is responsible for creating a class for
-# retrieving quote data
-
-
-# DATE BUILDING AND MANAGEMENT
-today = datetime.today().astimezone(timezone("US/Central"))
-today_fmt = today.strftime("%m-%d-%Y")
-
-# CREATE THE LOGGER FOR THIS SCRIPT:
-log_path = str(os.path.pardir) + '/logs/'
-base_fmt = "[{time:YYYY-MM-DD at HH:mm:ss}]|[{name}-<lvl>{message}</lvl>]"
-logger.add(log_path+"quotes.log", rotation="2 MB",
-           colorize=True, enqueue=True, catch=True)
 
 class Quote:
 
@@ -137,7 +138,7 @@ class Quote:
             quote_data = pd.concat([self.data(each)
                                    for each in self.stock_chunks])
             logger.info("[+] Quote Data Received")
-            return quote_data
+            return pd.DataFrame(quote_data)
 
         except Exception as e:
             logger.error("Error Caused Due to {}", e)
@@ -202,7 +203,7 @@ class Fundamental:
                                    for each in self.stock_chunks])
             logger.info("[+] Fundamental Data Received")
             # insert_fundamental_data_mysql(fundamental_data, self.engine)
-            return fundamental_data
+            return pd.DataFrame(fundamental_data)
 
         except Exception as e:
             logger.error("Error Caused Due to {}", e)

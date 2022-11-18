@@ -164,3 +164,13 @@ def insert_quote_and_fundamental_data(quote_data, fundamental_data, db_name=mark
 
 
 # --------
+# Create a function to select fundamental and quote data from the database as a dataframe
+def select_fundamental_data(db=market_db_path):
+    conn = sql.connect(db)
+    df = pd.read_sql("SELECT * FROM fundamental_data", conn)
+    return df
+
+def select_quote_data(db=market_db_path):
+    conn = sql.connect(db)
+    df = pd.read_sql("SELECT * FROM quote_data", conn)
+    return df

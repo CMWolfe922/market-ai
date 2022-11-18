@@ -25,23 +25,10 @@ h, u, pw = MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD
 marketdata_db = MYSQL_MARKETDATA_DB
 pricehistory_db = MYSQL_PRICEHISTORY_DB
 
-def create_mysql_uri(drivername, username, password, host, port:int=33060):
-    db = MYSQL_MARKETDATA_DB
-    mysql_db = {
-        'drivername':drivername,
-        'username':username,
-        'password':password,
-        'host':host,
-        'port':int(33060),
-        'database': db
-    }
-    uri = URL(**mysql_db)
-    return uri
-
 # CREATE A FUNCTION FOR CONNECTING TO EACH DATABASE:
 def create_marketdata_engine():
     DB = MYSQL_MARKETDATA_DB
-    connection_uri = f"mysql+mysqldb://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:33060/{DB}"
+    connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306/{DB}"
     # connection_uri = create_mysql_uri('mysql', MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST)
     _engine = create_engine(connection_uri, echo=True)
     logger.info("[+] marketdata database engine created successfully")
@@ -50,14 +37,14 @@ def create_marketdata_engine():
 
 def create_pricehistory_engine():
     DB = MYSQL_PRICEHISTORY_DB
-    connection_uri = f"mysql+mysqldb://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:33060/{DB}"
+    connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306/{DB}"
     _engine = create_engine(connection_uri, echo=True)
     logger.info("[+] pricehistory database engine created successfully")
     return _engine
 
 
 # CONNECTION URI FOR SQLALCHEMY TO CREATE ENGINE. MUST ADD /{DB} TO END WHEN USED
-connection_uri = f"mysql+mysqldb://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:33060"
+connection_uri = f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:3306"
 
 
 # CREATE A FUNCTION TO SELECT SYMBOLS FROM MYSQL DATABASE
@@ -146,11 +133,20 @@ def insert_quote_and_fundamental_data_mysql(quote_data, fundamental_data, engine
 # ----------------------------------------------------------- #
 # CREATE FUNCTION TO INSERT COMPANY DATA FROM STOCKDATA
 # ----------------------------------------------------------- #
-def create_company_csv(df, path='companies.csv'):
+def _insert_companies(df, table_name="companies"):
     """
-    quick function to create a csv file with all the companies that
-    I will need to use to get data for.
+    :param company_df: pandas DataFrame of list of companies
+    :param db_name: name of database to insert data into
+    :param table_name: name of table to save data to in database
+    :return: Message stating companies were inserted correctly
+    or a message saying database and table already exists. If
+    table and database already exists, then the query_symbols
+    function will be called
     """
-    df.to_csv(path, sep='|', mode="w")
+
+    table = table_name
+    engine = create_marketdata_engine()
+
+    df.to_sql(name=table, con=engine, if_exists="replace", index=True)
     # basically this should only work the very first time
     # the program is run and no database exists yet.

@@ -1878,3 +1878,486 @@
 11/16/2022 at 00:24:30 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
 11/16/2022 at 00:33:11 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
 11/16/2022 at 00:33:37 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:23:27 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:24:24 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:24:24 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:24:37 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:24:37 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:24:37 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:24:37 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:25:12 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:25:12 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:25:13 | ERROR | marketdata.company_data | Error Caused Due to 'builtin_function_or_method' object has no attribute 'sleep'
+11/17/2022 at 19:25:13 | ERROR | marketdata.company_data | Error Caused Due to 'builtin_function_or_method' object has no attribute 'sleep'
+11/17/2022 at 19:28:08 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:28:09 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:28:09 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:28:09 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:28:09 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:28:11 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:28:11 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:28:34 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:28:34 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:30:22 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:30:22 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:30:22 | ERROR | marketdata.company_data | Error Caused Due to No objects to concatenate
+11/17/2022 at 19:30:22 | ERROR | marketdata.company_data | Error Caused Due to No objects to concatenate
+11/17/2022 at 19:30:42 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:30:43 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:30:43 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:30:43 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:30:43 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:30:44 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:30:44 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:32:22 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:32:22 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:33:12 | INFO | marketdata.company_data | [-] Executing the main Fundamental Object Method
+11/17/2022 at 19:33:12 | INFO | marketdata.company_data | [-] Executing the main Fundamental Object Method
+11/17/2022 at 19:34:59 | INFO | marketdata.company_data | [+] Fundamental Data Received
+11/17/2022 at 19:34:59 | INFO | marketdata.company_data | [+] Fundamental Data Received
+11/17/2022 at 19:35:25 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:35:26 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:35:26 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:35:26 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:35:26 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:35:27 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:35:27 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:36:45 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 19:36:46 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:36:46 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:36:46 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:36:46 | INFO | marketdata.company_data | [+] Stocks chunked into groups of 200..
+11/17/2022 at 19:37:00 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:37:00 | INFO | marketdata.company_data | [-] Executing the main Quote Object Method
+11/17/2022 at 19:38:38 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:38:38 | INFO | marketdata.company_data | [+] Quote Data Received
+11/17/2022 at 19:38:39 | INFO | marketdata.company_data | [-] Executing the main Fundamental Object Method
+11/17/2022 at 19:38:39 | INFO | marketdata.company_data | [-] Executing the main Fundamental Object Method
+11/17/2022 at 19:40:26 | INFO | marketdata.company_data | [+] Fundamental Data Received
+11/17/2022 at 19:40:26 | INFO | marketdata.company_data | [+] Fundamental Data Received
+11/17/2022 at 19:44:32 | INFO | marketdata.models.sqlite_db | [+] Quote data inserted successfully
+11/17/2022 at 19:44:32 | INFO | marketdata.models.sqlite_db | [+] Quote data inserted successfully
+11/17/2022 at 19:44:32 | INFO | marketdata.models.sqlite_db | [+] Fundamental Data Inserted
+11/17/2022 at 19:44:32 | INFO | marketdata.models.sqlite_db | [+] Fundamental Data Inserted
+11/17/2022 at 20:07:57 | INFO | marketdata.tickers | [+] Begin extracting company information:
+11/17/2022 at 20:07:57 | INFO | marketdata.tickers | [+] Begin extracting company information:
+11/17/2022 at 20:07:57 | INFO | marketdata.tickers | Get stock market tickers for NYSE exchange
+11/17/2022 at 20:07:57 | INFO | marketdata.tickers | Get stock market tickers for NYSE exchange
+11/17/2022 at 20:07:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/A.htm for NYSE exchange
+11/17/2022 at 20:07:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/A.htm for NYSE exchange
+11/17/2022 at 20:07:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/B.htm for NYSE exchange
+11/17/2022 at 20:07:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/B.htm for NYSE exchange
+11/17/2022 at 20:08:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/C.htm for NYSE exchange
+11/17/2022 at 20:08:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/C.htm for NYSE exchange
+11/17/2022 at 20:08:01 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/D.htm for NYSE exchange
+11/17/2022 at 20:08:01 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/D.htm for NYSE exchange
+11/17/2022 at 20:08:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/E.htm for NYSE exchange
+11/17/2022 at 20:08:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/E.htm for NYSE exchange
+11/17/2022 at 20:08:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/F.htm for NYSE exchange
+11/17/2022 at 20:08:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/F.htm for NYSE exchange
+11/17/2022 at 20:08:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/G.htm for NYSE exchange
+11/17/2022 at 20:08:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/G.htm for NYSE exchange
+11/17/2022 at 20:08:04 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/H.htm for NYSE exchange
+11/17/2022 at 20:08:04 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/H.htm for NYSE exchange
+11/17/2022 at 20:08:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/I.htm for NYSE exchange
+11/17/2022 at 20:08:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/I.htm for NYSE exchange
+11/17/2022 at 20:08:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/J.htm for NYSE exchange
+11/17/2022 at 20:08:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/J.htm for NYSE exchange
+11/17/2022 at 20:08:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/K.htm for NYSE exchange
+11/17/2022 at 20:08:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/K.htm for NYSE exchange
+11/17/2022 at 20:08:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/L.htm for NYSE exchange
+11/17/2022 at 20:08:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/L.htm for NYSE exchange
+11/17/2022 at 20:08:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/M.htm for NYSE exchange
+11/17/2022 at 20:08:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/M.htm for NYSE exchange
+11/17/2022 at 20:08:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/N.htm for NYSE exchange
+11/17/2022 at 20:08:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/N.htm for NYSE exchange
+11/17/2022 at 20:08:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/O.htm for NYSE exchange
+11/17/2022 at 20:08:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/O.htm for NYSE exchange
+11/17/2022 at 20:08:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/P.htm for NYSE exchange
+11/17/2022 at 20:08:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/P.htm for NYSE exchange
+11/17/2022 at 20:08:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Q.htm for NYSE exchange
+11/17/2022 at 20:08:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Q.htm for NYSE exchange
+11/17/2022 at 20:08:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/R.htm for NYSE exchange
+11/17/2022 at 20:08:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/R.htm for NYSE exchange
+11/17/2022 at 20:08:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/S.htm for NYSE exchange
+11/17/2022 at 20:08:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/S.htm for NYSE exchange
+11/17/2022 at 20:08:13 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/T.htm for NYSE exchange
+11/17/2022 at 20:08:13 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/T.htm for NYSE exchange
+11/17/2022 at 20:08:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/U.htm for NYSE exchange
+11/17/2022 at 20:08:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/U.htm for NYSE exchange
+11/17/2022 at 20:08:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/V.htm for NYSE exchange
+11/17/2022 at 20:08:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/V.htm for NYSE exchange
+11/17/2022 at 20:08:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/W.htm for NYSE exchange
+11/17/2022 at 20:08:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/W.htm for NYSE exchange
+11/17/2022 at 20:08:16 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/X.htm for NYSE exchange
+11/17/2022 at 20:08:16 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/X.htm for NYSE exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Y.htm for NYSE exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Y.htm for NYSE exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Z.htm for NYSE exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Z.htm for NYSE exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted 3583 groups of company symbols and names:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Extracted 3583 groups of company symbols and names:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | 3496 left after removing duplicates:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | 3496 left after removing duplicates:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Kept 3496 qualified symbols:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Kept 3496 qualified symbols:
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Get stock market tickers for NASDAQ exchange
+11/17/2022 at 20:08:17 | INFO | marketdata.tickers | Get stock market tickers for NASDAQ exchange
+11/17/2022 at 20:08:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/A.htm for NASDAQ exchange
+11/17/2022 at 20:08:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/A.htm for NASDAQ exchange
+11/17/2022 at 20:08:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/B.htm for NASDAQ exchange
+11/17/2022 at 20:08:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/B.htm for NASDAQ exchange
+11/17/2022 at 20:08:22 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/C.htm for NASDAQ exchange
+11/17/2022 at 20:08:22 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/C.htm for NASDAQ exchange
+11/17/2022 at 20:08:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/D.htm for NASDAQ exchange
+11/17/2022 at 20:08:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/D.htm for NASDAQ exchange
+11/17/2022 at 20:08:24 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/E.htm for NASDAQ exchange
+11/17/2022 at 20:08:24 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/E.htm for NASDAQ exchange
+11/17/2022 at 20:08:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/F.htm for NASDAQ exchange
+11/17/2022 at 20:08:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/F.htm for NASDAQ exchange
+11/17/2022 at 20:08:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/G.htm for NASDAQ exchange
+11/17/2022 at 20:08:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/G.htm for NASDAQ exchange
+11/17/2022 at 20:08:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/H.htm for NASDAQ exchange
+11/17/2022 at 20:08:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/H.htm for NASDAQ exchange
+11/17/2022 at 20:08:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/I.htm for NASDAQ exchange
+11/17/2022 at 20:08:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/I.htm for NASDAQ exchange
+11/17/2022 at 20:08:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/J.htm for NASDAQ exchange
+11/17/2022 at 20:08:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/J.htm for NASDAQ exchange
+11/17/2022 at 20:08:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/K.htm for NASDAQ exchange
+11/17/2022 at 20:08:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/K.htm for NASDAQ exchange
+11/17/2022 at 20:08:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/L.htm for NASDAQ exchange
+11/17/2022 at 20:08:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/L.htm for NASDAQ exchange
+11/17/2022 at 20:08:31 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/M.htm for NASDAQ exchange
+11/17/2022 at 20:08:31 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/M.htm for NASDAQ exchange
+11/17/2022 at 20:08:31 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/N.htm for NASDAQ exchange
+11/17/2022 at 20:08:31 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/N.htm for NASDAQ exchange
+11/17/2022 at 20:08:32 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/O.htm for NASDAQ exchange
+11/17/2022 at 20:08:32 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/O.htm for NASDAQ exchange
+11/17/2022 at 20:08:33 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/P.htm for NASDAQ exchange
+11/17/2022 at 20:08:33 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/P.htm for NASDAQ exchange
+11/17/2022 at 20:08:34 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Q.htm for NASDAQ exchange
+11/17/2022 at 20:08:34 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Q.htm for NASDAQ exchange
+11/17/2022 at 20:08:35 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/R.htm for NASDAQ exchange
+11/17/2022 at 20:08:35 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/R.htm for NASDAQ exchange
+11/17/2022 at 20:08:36 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/S.htm for NASDAQ exchange
+11/17/2022 at 20:08:36 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/S.htm for NASDAQ exchange
+11/17/2022 at 20:08:37 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/T.htm for NASDAQ exchange
+11/17/2022 at 20:08:37 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/T.htm for NASDAQ exchange
+11/17/2022 at 20:08:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/U.htm for NASDAQ exchange
+11/17/2022 at 20:08:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/U.htm for NASDAQ exchange
+11/17/2022 at 20:08:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/V.htm for NASDAQ exchange
+11/17/2022 at 20:08:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/V.htm for NASDAQ exchange
+11/17/2022 at 20:08:39 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/W.htm for NASDAQ exchange
+11/17/2022 at 20:08:39 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/W.htm for NASDAQ exchange
+11/17/2022 at 20:08:40 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/X.htm for NASDAQ exchange
+11/17/2022 at 20:08:40 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/X.htm for NASDAQ exchange
+11/17/2022 at 20:08:40 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Y.htm for NASDAQ exchange
+11/17/2022 at 20:08:40 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Y.htm for NASDAQ exchange
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Z.htm for NASDAQ exchange
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Z.htm for NASDAQ exchange
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Extracted 5749 groups of company symbols and names:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Extracted 5749 groups of company symbols and names:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | 5749 left after removing duplicates:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | 5749 left after removing duplicates:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Removed 849 unqualified symbols:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Removed 849 unqualified symbols:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Kept 4900 qualified symbols:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Kept 4900 qualified symbols:
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Get stock market tickers for AMEX exchange
+11/17/2022 at 20:08:41 | INFO | marketdata.tickers | Get stock market tickers for AMEX exchange
+11/17/2022 at 20:08:42 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/A.htm for AMEX exchange
+11/17/2022 at 20:08:42 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/A.htm for AMEX exchange
+11/17/2022 at 20:08:42 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/B.htm for AMEX exchange
+11/17/2022 at 20:08:42 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/B.htm for AMEX exchange
+11/17/2022 at 20:08:43 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/C.htm for AMEX exchange
+11/17/2022 at 20:08:43 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/C.htm for AMEX exchange
+11/17/2022 at 20:08:44 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/D.htm for AMEX exchange
+11/17/2022 at 20:08:44 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/D.htm for AMEX exchange
+11/17/2022 at 20:08:45 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/E.htm for AMEX exchange
+11/17/2022 at 20:08:45 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/E.htm for AMEX exchange
+11/17/2022 at 20:08:46 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/F.htm for AMEX exchange
+11/17/2022 at 20:08:46 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/F.htm for AMEX exchange
+11/17/2022 at 20:08:46 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/G.htm for AMEX exchange
+11/17/2022 at 20:08:46 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/G.htm for AMEX exchange
+11/17/2022 at 20:08:47 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/H.htm for AMEX exchange
+11/17/2022 at 20:08:47 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/H.htm for AMEX exchange
+11/17/2022 at 20:08:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/I.htm for AMEX exchange
+11/17/2022 at 20:08:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/I.htm for AMEX exchange
+11/17/2022 at 20:08:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/J.htm for AMEX exchange
+11/17/2022 at 20:08:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/J.htm for AMEX exchange
+11/17/2022 at 20:08:49 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/K.htm for AMEX exchange
+11/17/2022 at 20:08:49 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/K.htm for AMEX exchange
+11/17/2022 at 20:08:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/L.htm for AMEX exchange
+11/17/2022 at 20:08:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/L.htm for AMEX exchange
+11/17/2022 at 20:08:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/M.htm for AMEX exchange
+11/17/2022 at 20:08:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/M.htm for AMEX exchange
+11/17/2022 at 20:08:51 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/N.htm for AMEX exchange
+11/17/2022 at 20:08:51 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/N.htm for AMEX exchange
+11/17/2022 at 20:08:52 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/O.htm for AMEX exchange
+11/17/2022 at 20:08:52 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/O.htm for AMEX exchange
+11/17/2022 at 20:08:53 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/P.htm for AMEX exchange
+11/17/2022 at 20:08:53 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/P.htm for AMEX exchange
+11/17/2022 at 20:08:53 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Q.htm for AMEX exchange
+11/17/2022 at 20:08:53 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Q.htm for AMEX exchange
+11/17/2022 at 20:08:54 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/R.htm for AMEX exchange
+11/17/2022 at 20:08:54 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/R.htm for AMEX exchange
+11/17/2022 at 20:08:55 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/S.htm for AMEX exchange
+11/17/2022 at 20:08:55 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/S.htm for AMEX exchange
+11/17/2022 at 20:08:56 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/T.htm for AMEX exchange
+11/17/2022 at 20:08:56 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/T.htm for AMEX exchange
+11/17/2022 at 20:08:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/U.htm for AMEX exchange
+11/17/2022 at 20:08:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/U.htm for AMEX exchange
+11/17/2022 at 20:08:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/V.htm for AMEX exchange
+11/17/2022 at 20:08:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/V.htm for AMEX exchange
+11/17/2022 at 20:08:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/W.htm for AMEX exchange
+11/17/2022 at 20:08:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/W.htm for AMEX exchange
+11/17/2022 at 20:08:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/X.htm for AMEX exchange
+11/17/2022 at 20:08:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/X.htm for AMEX exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Y.htm for AMEX exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Y.htm for AMEX exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Z.htm for AMEX exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Z.htm for AMEX exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted 2895 groups of company symbols and names:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Extracted 2895 groups of company symbols and names:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | 2889 left after removing duplicates:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | 2889 left after removing duplicates:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Kept 2889 qualified symbols:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Kept 2889 qualified symbols:
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Get stock market tickers for OTCBB exchange
+11/17/2022 at 20:09:00 | INFO | marketdata.tickers | Get stock market tickers for OTCBB exchange
+11/17/2022 at 20:09:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/A.htm for OTCBB exchange
+11/17/2022 at 20:09:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/A.htm for OTCBB exchange
+11/17/2022 at 20:09:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/B.htm for OTCBB exchange
+11/17/2022 at 20:09:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/B.htm for OTCBB exchange
+11/17/2022 at 20:09:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/C.htm for OTCBB exchange
+11/17/2022 at 20:09:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/C.htm for OTCBB exchange
+11/17/2022 at 20:09:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/D.htm for OTCBB exchange
+11/17/2022 at 20:09:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/D.htm for OTCBB exchange
+11/17/2022 at 20:09:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/E.htm for OTCBB exchange
+11/17/2022 at 20:09:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/E.htm for OTCBB exchange
+11/17/2022 at 20:09:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/F.htm for OTCBB exchange
+11/17/2022 at 20:09:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/F.htm for OTCBB exchange
+11/17/2022 at 20:09:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/G.htm for OTCBB exchange
+11/17/2022 at 20:09:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/G.htm for OTCBB exchange
+11/17/2022 at 20:09:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/H.htm for OTCBB exchange
+11/17/2022 at 20:09:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/H.htm for OTCBB exchange
+11/17/2022 at 20:09:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/I.htm for OTCBB exchange
+11/17/2022 at 20:09:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/I.htm for OTCBB exchange
+11/17/2022 at 20:09:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/J.htm for OTCBB exchange
+11/17/2022 at 20:09:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/J.htm for OTCBB exchange
+11/17/2022 at 20:09:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/K.htm for OTCBB exchange
+11/17/2022 at 20:09:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/K.htm for OTCBB exchange
+11/17/2022 at 20:09:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/L.htm for OTCBB exchange
+11/17/2022 at 20:09:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/L.htm for OTCBB exchange
+11/17/2022 at 20:09:16 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/M.htm for OTCBB exchange
+11/17/2022 at 20:09:16 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/M.htm for OTCBB exchange
+11/17/2022 at 20:09:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/N.htm for OTCBB exchange
+11/17/2022 at 20:09:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/N.htm for OTCBB exchange
+11/17/2022 at 20:09:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/O.htm for OTCBB exchange
+11/17/2022 at 20:09:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/O.htm for OTCBB exchange
+11/17/2022 at 20:09:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/P.htm for OTCBB exchange
+11/17/2022 at 20:09:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/P.htm for OTCBB exchange
+11/17/2022 at 20:09:20 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Q.htm for OTCBB exchange
+11/17/2022 at 20:09:20 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Q.htm for OTCBB exchange
+11/17/2022 at 20:09:21 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/R.htm for OTCBB exchange
+11/17/2022 at 20:09:21 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/R.htm for OTCBB exchange
+11/17/2022 at 20:09:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/S.htm for OTCBB exchange
+11/17/2022 at 20:09:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/S.htm for OTCBB exchange
+11/17/2022 at 20:09:24 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/T.htm for OTCBB exchange
+11/17/2022 at 20:09:24 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/T.htm for OTCBB exchange
+11/17/2022 at 20:09:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/U.htm for OTCBB exchange
+11/17/2022 at 20:09:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/U.htm for OTCBB exchange
+11/17/2022 at 20:09:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/V.htm for OTCBB exchange
+11/17/2022 at 20:09:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/V.htm for OTCBB exchange
+11/17/2022 at 20:09:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/W.htm for OTCBB exchange
+11/17/2022 at 20:09:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/W.htm for OTCBB exchange
+11/17/2022 at 20:09:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/X.htm for OTCBB exchange
+11/17/2022 at 20:09:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/X.htm for OTCBB exchange
+11/17/2022 at 20:09:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Y.htm for OTCBB exchange
+11/17/2022 at 20:09:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Y.htm for OTCBB exchange
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Z.htm for OTCBB exchange
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Z.htm for OTCBB exchange
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Extracted 8938 groups of company symbols and names:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Extracted 8938 groups of company symbols and names:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | 8938 left after removing duplicates:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | 8938 left after removing duplicates:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Removed 4793 unqualified symbols:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Removed 4793 unqualified symbols:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Kept 4145 qualified symbols:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | Kept 4145 qualified symbols:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Add the exchange next to symbol and name
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Add the exchange next to symbol and name
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Join the company sets
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Join the company sets
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Create company dataframe
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] Create company dataframe
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] One last check to drop duplicate symbols and names:
+11/17/2022 at 20:09:30 | INFO | marketdata.tickers | [+] One last check to drop duplicate symbols and names:
+11/17/2022 at 20:09:30 | SUCCESS | marketdata.tickers | Retrieved all the company stock symbols and names. Returning a pandas dataframe:
+11/17/2022 at 20:09:30 | SUCCESS | marketdata.tickers | Retrieved all the company stock symbols and names. Returning a pandas dataframe:
+11/17/2022 at 20:10:48 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:10:48 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:15:59 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:15:59 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:27:53 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:27:53 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 20:51:54 | INFO | marketdata.tickers | [+] Begin extracting company information:
+11/17/2022 at 20:51:54 | INFO | marketdata.tickers | Get stock market tickers for NYSE exchange
+11/17/2022 at 20:51:55 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/A.htm for NYSE exchange
+11/17/2022 at 20:51:56 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/B.htm for NYSE exchange
+11/17/2022 at 20:51:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/C.htm for NYSE exchange
+11/17/2022 at 20:51:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/D.htm for NYSE exchange
+11/17/2022 at 20:51:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/E.htm for NYSE exchange
+11/17/2022 at 20:51:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/F.htm for NYSE exchange
+11/17/2022 at 20:52:01 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/G.htm for NYSE exchange
+11/17/2022 at 20:52:01 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/H.htm for NYSE exchange
+11/17/2022 at 20:52:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/I.htm for NYSE exchange
+11/17/2022 at 20:52:03 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/J.htm for NYSE exchange
+11/17/2022 at 20:52:04 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/K.htm for NYSE exchange
+11/17/2022 at 20:52:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/L.htm for NYSE exchange
+11/17/2022 at 20:52:06 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/M.htm for NYSE exchange
+11/17/2022 at 20:52:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/N.htm for NYSE exchange
+11/17/2022 at 20:52:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/O.htm for NYSE exchange
+11/17/2022 at 20:52:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/P.htm for NYSE exchange
+11/17/2022 at 20:52:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Q.htm for NYSE exchange
+11/17/2022 at 20:52:09 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/R.htm for NYSE exchange
+11/17/2022 at 20:52:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/S.htm for NYSE exchange
+11/17/2022 at 20:52:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/T.htm for NYSE exchange
+11/17/2022 at 20:52:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/U.htm for NYSE exchange
+11/17/2022 at 20:52:13 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/V.htm for NYSE exchange
+11/17/2022 at 20:52:13 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/W.htm for NYSE exchange
+11/17/2022 at 20:52:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/X.htm for NYSE exchange
+11/17/2022 at 20:52:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Y.htm for NYSE exchange
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NYSE/Z.htm for NYSE exchange
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Extracted 3583 groups of company symbols and names:
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | 3496 left after removing duplicates:
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Kept 3496 qualified symbols:
+11/17/2022 at 20:52:15 | INFO | marketdata.tickers | Get stock market tickers for NASDAQ exchange
+11/17/2022 at 20:52:16 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/A.htm for NASDAQ exchange
+11/17/2022 at 20:52:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/B.htm for NASDAQ exchange
+11/17/2022 at 20:52:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/C.htm for NASDAQ exchange
+11/17/2022 at 20:52:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/D.htm for NASDAQ exchange
+11/17/2022 at 20:52:20 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/E.htm for NASDAQ exchange
+11/17/2022 at 20:52:21 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/F.htm for NASDAQ exchange
+11/17/2022 at 20:52:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/G.htm for NASDAQ exchange
+11/17/2022 at 20:52:24 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/H.htm for NASDAQ exchange
+11/17/2022 at 20:52:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/I.htm for NASDAQ exchange
+11/17/2022 at 20:52:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/J.htm for NASDAQ exchange
+11/17/2022 at 20:52:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/K.htm for NASDAQ exchange
+11/17/2022 at 20:52:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/L.htm for NASDAQ exchange
+11/17/2022 at 20:52:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/M.htm for NASDAQ exchange
+11/17/2022 at 20:52:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/N.htm for NASDAQ exchange
+11/17/2022 at 20:52:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/O.htm for NASDAQ exchange
+11/17/2022 at 20:52:31 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/P.htm for NASDAQ exchange
+11/17/2022 at 20:52:33 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Q.htm for NASDAQ exchange
+11/17/2022 at 20:52:33 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/R.htm for NASDAQ exchange
+11/17/2022 at 20:52:35 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/S.htm for NASDAQ exchange
+11/17/2022 at 20:52:35 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/T.htm for NASDAQ exchange
+11/17/2022 at 20:52:36 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/U.htm for NASDAQ exchange
+11/17/2022 at 20:52:37 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/V.htm for NASDAQ exchange
+11/17/2022 at 20:52:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/W.htm for NASDAQ exchange
+11/17/2022 at 20:52:38 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/X.htm for NASDAQ exchange
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Y.htm for NASDAQ exchange
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/NASDAQ/Z.htm for NASDAQ exchange
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Extracted 5749 groups of company symbols and names:
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | 5749 left after removing duplicates:
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Removed 849 unqualified symbols:
+11/17/2022 at 20:52:39 | INFO | marketdata.tickers | Kept 4900 qualified symbols:
+11/17/2022 at 20:52:40 | INFO | marketdata.tickers | Get stock market tickers for AMEX exchange
+11/17/2022 at 20:52:40 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/A.htm for AMEX exchange
+11/17/2022 at 20:52:41 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/B.htm for AMEX exchange
+11/17/2022 at 20:52:42 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/C.htm for AMEX exchange
+11/17/2022 at 20:52:43 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/D.htm for AMEX exchange
+11/17/2022 at 20:52:45 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/E.htm for AMEX exchange
+11/17/2022 at 20:52:45 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/F.htm for AMEX exchange
+11/17/2022 at 20:52:46 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/G.htm for AMEX exchange
+11/17/2022 at 20:52:47 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/H.htm for AMEX exchange
+11/17/2022 at 20:52:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/I.htm for AMEX exchange
+11/17/2022 at 20:52:48 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/J.htm for AMEX exchange
+11/17/2022 at 20:52:49 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/K.htm for AMEX exchange
+11/17/2022 at 20:52:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/L.htm for AMEX exchange
+11/17/2022 at 20:52:50 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/M.htm for AMEX exchange
+11/17/2022 at 20:52:51 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/N.htm for AMEX exchange
+11/17/2022 at 20:52:52 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/O.htm for AMEX exchange
+11/17/2022 at 20:52:52 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/P.htm for AMEX exchange
+11/17/2022 at 20:52:53 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Q.htm for AMEX exchange
+11/17/2022 at 20:52:54 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/R.htm for AMEX exchange
+11/17/2022 at 20:52:55 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/S.htm for AMEX exchange
+11/17/2022 at 20:52:55 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/T.htm for AMEX exchange
+11/17/2022 at 20:52:56 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/U.htm for AMEX exchange
+11/17/2022 at 20:52:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/V.htm for AMEX exchange
+11/17/2022 at 20:52:57 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/W.htm for AMEX exchange
+11/17/2022 at 20:52:58 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/X.htm for AMEX exchange
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Y.htm for AMEX exchange
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/AMEX/Z.htm for AMEX exchange
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Extracted 2895 groups of company symbols and names:
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | 2889 left after removing duplicates:
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Removed 0 unqualified symbols:
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Kept 2889 qualified symbols:
+11/17/2022 at 20:52:59 | INFO | marketdata.tickers | Get stock market tickers for OTCBB exchange
+11/17/2022 at 20:53:01 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/A.htm for OTCBB exchange
+11/17/2022 at 20:53:02 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/B.htm for OTCBB exchange
+11/17/2022 at 20:53:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/C.htm for OTCBB exchange
+11/17/2022 at 20:53:05 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/D.htm for OTCBB exchange
+11/17/2022 at 20:53:07 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/E.htm for OTCBB exchange
+11/17/2022 at 20:53:08 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/F.htm for OTCBB exchange
+11/17/2022 at 20:53:10 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/G.htm for OTCBB exchange
+11/17/2022 at 20:53:11 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/H.htm for OTCBB exchange
+11/17/2022 at 20:53:12 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/I.htm for OTCBB exchange
+11/17/2022 at 20:53:13 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/J.htm for OTCBB exchange
+11/17/2022 at 20:53:14 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/K.htm for OTCBB exchange
+11/17/2022 at 20:53:15 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/L.htm for OTCBB exchange
+11/17/2022 at 20:53:17 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/M.htm for OTCBB exchange
+11/17/2022 at 20:53:18 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/N.htm for OTCBB exchange
+11/17/2022 at 20:53:19 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/O.htm for OTCBB exchange
+11/17/2022 at 20:53:20 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/P.htm for OTCBB exchange
+11/17/2022 at 20:53:21 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Q.htm for OTCBB exchange
+11/17/2022 at 20:53:22 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/R.htm for OTCBB exchange
+11/17/2022 at 20:53:23 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/S.htm for OTCBB exchange
+11/17/2022 at 20:53:25 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/T.htm for OTCBB exchange
+11/17/2022 at 20:53:26 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/U.htm for OTCBB exchange
+11/17/2022 at 20:53:27 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/V.htm for OTCBB exchange
+11/17/2022 at 20:53:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/W.htm for OTCBB exchange
+11/17/2022 at 20:53:28 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/X.htm for OTCBB exchange
+11/17/2022 at 20:53:29 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Y.htm for OTCBB exchange
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | Extracted tickers from http://eoddata.com/stocklist/OTCBB/Z.htm for OTCBB exchange
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | Cleaned the symbols and names by removing hyphens and additional letters
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | Extracted 8938 groups of company symbols and names:
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | 8938 left after removing duplicates:
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | Removed 4793 unqualified symbols:
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | Kept 4145 qualified symbols:
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | [+] Add the exchange next to symbol and name
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | [+] Join the company sets
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | [+] Create company dataframe
+11/17/2022 at 20:53:30 | INFO | marketdata.tickers | [+] One last check to drop duplicate symbols and names:
+11/17/2022 at 20:53:30 | SUCCESS | marketdata.tickers | Retrieved all the company stock symbols and names. Returning a pandas dataframe:
+11/17/2022 at 20:53:30 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 22:02:21 | INFO | marketdata.models.db | [+] marketdata database engine created successfully
+11/17/2022 at 22:02:49 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 22:26:00 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 22:31:48 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 22:34:29 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 22:34:29 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 22:58:10 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:00:31 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:02:10 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:03:58 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:05:14 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:37:57 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved
+11/17/2022 at 23:38:33 | SUCCESS | marketdata.models.sqlite_db | [+] All symbols retrieved

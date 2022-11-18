@@ -11,6 +11,9 @@
 # I will add ways to extract the good ticker and remove the ones
 # with bad suffixes.
 
+# TODO: IMPROVE SPEED. MAKE THIS AN ASYNCHRONOUS FUNCTION. RIGHT NOW IT TAKES TWO MINUTES TO
+# GET ALL THE SYMBOLS FROM THAT ONE WEBSITE.
+
 import requests, os
 import string
 import pandas as pd

@@ -1,0 +1,176 @@
+[32m2022-11-17 19:24:24.138[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 19:24:37.092[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m95[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:24:37.094[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m160[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:25:12.996[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m135[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:25:13.507[0m | [31m[1mERROR   [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m143[0m - [31m[1mError Caused Due to 'builtin_function_or_method' object has no attribute 'sleep'[0m
+[32m2022-11-17 19:28:09.784[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m96[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:28:09.786[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m161[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:28:11.078[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m136[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:28:34.870[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m140[0m - [1m[+] Quote Data Received[0m
+[32m2022-11-17 19:30:22.597[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m136[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:30:22.600[0m | [31m[1mERROR   [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m144[0m - [31m[1mError Caused Due to No objects to concatenate[0m
+[32m2022-11-17 19:30:43.352[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m96[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:30:43.353[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m161[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:30:44.510[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m136[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:32:22.995[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m140[0m - [1m[+] Quote Data Received[0m
+[32m2022-11-17 19:33:12.966[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m200[0m - [1m[-] Executing the main Fundamental Object Method[0m
+[32m2022-11-17 19:34:59.962[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m204[0m - [1m[+] Fundamental Data Received[0m
+[32m2022-11-17 19:35:26.435[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m96[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:35:26.436[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m161[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:35:27.578[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m136[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:36:46.162[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m96[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:36:46.164[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mchunks[0m:[36m161[0m - [1m[+] Stocks chunked into groups of 200..[0m
+[32m2022-11-17 19:37:00.553[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m136[0m - [1m[-] Executing the main Quote Object Method[0m
+[32m2022-11-17 19:38:38.949[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m140[0m - [1m[+] Quote Data Received[0m
+[32m2022-11-17 19:38:39.034[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m200[0m - [1m[-] Executing the main Fundamental Object Method[0m
+[32m2022-11-17 19:40:26.174[0m | [1mINFO    [0m | [36mmarketdata.company_data[0m:[36mexecute_main[0m:[36m204[0m - [1m[+] Fundamental Data Received[0m
+[32m2022-11-17 19:44:32.433[0m | [1mINFO    [0m | [36mmarketdata.models.sqlite_db[0m:[36minsert_quote_data[0m:[36m125[0m - [1m[+] Quote data inserted successfully[0m
+[32m2022-11-17 19:44:32.534[0m | [1mINFO    [0m | [36mmarketdata.models.sqlite_db[0m:[36minsert_fundamental_data[0m:[36m143[0m - [1m[+] Fundamental Data Inserted[0m
+[32m2022-11-17 20:07:57.333[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m86[0m - [1m[+] Begin extracting company information:[0m
+[32m2022-11-17 20:07:57.336[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m46[0m - [1mGet stock market tickers for NYSE exchange[0m
+[32m2022-11-17 20:07:58.409[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/A.htm for NYSE exchange[0m
+[32m2022-11-17 20:07:59.599[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/B.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:00.734[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/C.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:01.466[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/D.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:02.286[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/E.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:03.148[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/F.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:03.911[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/G.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:04.744[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/H.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:05.478[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/I.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:06.147[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/J.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:06.846[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/K.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:07.553[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/L.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:08.385[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/M.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:09.222[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/N.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:09.900[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/O.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:10.689[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/P.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:11.306[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/Q.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:12.057[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/R.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:12.975[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/S.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:13.867[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/T.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:14.508[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/U.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:15.171[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/V.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:15.902[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/W.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:16.482[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/X.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:17.035[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/Y.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:17.631[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NYSE/Z.htm for NYSE exchange[0m
+[32m2022-11-17 20:08:17.633[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m61[0m - [1mCleaned the symbols and names by removing hyphens and additional letters[0m
+[32m2022-11-17 20:08:17.636[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m64[0m - [1mExtracted 3583 groups of company symbols and names:[0m
+[32m2022-11-17 20:08:17.639[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m68[0m - [1m3496 left after removing duplicates:[0m
+[32m2022-11-17 20:08:17.642[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m81[0m - [1mRemoved 0 unqualified symbols:[0m
+[32m2022-11-17 20:08:17.644[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m82[0m - [1mKept 3496 qualified symbols:[0m
+[32m2022-11-17 20:08:17.646[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m46[0m - [1mGet stock market tickers for NASDAQ exchange[0m
+[32m2022-11-17 20:08:18.949[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/A.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:19.859[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/B.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:22.717[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/C.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:23.581[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/D.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:24.405[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/E.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:25.310[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/F.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:26.335[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/G.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:27.143[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/H.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:28.088[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/I.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:28.750[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/J.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:29.433[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/K.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:30.326[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/L.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:31.183[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/M.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:31.991[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/N.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:32.751[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/O.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:33.842[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/P.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:34.597[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/Q.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:35.394[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/R.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:36.386[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/S.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:37.268[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/T.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:38.013[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/U.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:38.817[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/V.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:39.498[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/W.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:40.127[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/X.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:40.754[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/Y.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:41.384[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/NASDAQ/Z.htm for NASDAQ exchange[0m
+[32m2022-11-17 20:08:41.387[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m61[0m - [1mCleaned the symbols and names by removing hyphens and additional letters[0m
+[32m2022-11-17 20:08:41.390[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m64[0m - [1mExtracted 5749 groups of company symbols and names:[0m
+[32m2022-11-17 20:08:41.392[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m68[0m - [1m5749 left after removing duplicates:[0m
+[32m2022-11-17 20:08:41.396[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m81[0m - [1mRemoved 849 unqualified symbols:[0m
+[32m2022-11-17 20:08:41.398[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m82[0m - [1mKept 4900 qualified symbols:[0m
+[32m2022-11-17 20:08:41.401[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m46[0m - [1mGet stock market tickers for AMEX exchange[0m
+[32m2022-11-17 20:08:42.109[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/A.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:42.941[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/B.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:43.674[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/C.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:44.401[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/D.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:45.165[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/E.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:46.024[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/F.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:46.742[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/G.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:47.424[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/H.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:48.306[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/I.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:48.978[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/J.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:49.644[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/K.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:50.276[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/L.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:50.987[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/M.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:51.751[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/N.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:52.370[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/O.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:53.170[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/P.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:53.807[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/Q.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:54.533[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/R.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:55.832[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/S.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:56.612[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/T.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:57.304[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/U.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:58.370[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/V.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:58.985[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/W.htm for AMEX exchange[0m
+[32m2022-11-17 20:08:59.673[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/X.htm for AMEX exchange[0m
+[32m2022-11-17 20:09:00.290[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/Y.htm for AMEX exchange[0m
+[32m2022-11-17 20:09:00.857[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/AMEX/Z.htm for AMEX exchange[0m
+[32m2022-11-17 20:09:00.860[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m61[0m - [1mCleaned the symbols and names by removing hyphens and additional letters[0m
+[32m2022-11-17 20:09:00.862[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m64[0m - [1mExtracted 2895 groups of company symbols and names:[0m
+[32m2022-11-17 20:09:00.865[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m68[0m - [1m2889 left after removing duplicates:[0m
+[32m2022-11-17 20:09:00.868[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m81[0m - [1mRemoved 0 unqualified symbols:[0m
+[32m2022-11-17 20:09:00.870[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m82[0m - [1mKept 2889 qualified symbols:[0m
+[32m2022-11-17 20:09:00.873[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m46[0m - [1mGet stock market tickers for OTCBB exchange[0m
+[32m2022-11-17 20:09:02.349[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/A.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:03.461[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/B.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:05.193[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/C.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:06.687[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/D.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:07.707[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/E.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:08.656[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/F.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:09.712[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/G.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:10.605[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/H.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:11.589[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/I.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:12.382[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/J.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:14.211[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/K.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:15.086[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/L.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:16.629[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/M.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:17.603[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/N.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:18.422[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/O.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:19.473[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/P.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:20.617[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/Q.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:21.515[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/R.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:23.633[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/S.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:24.642[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/T.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:25.632[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/U.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:26.550[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/V.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:27.456[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/W.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:28.655[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/X.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:29.324[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/Y.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:30.215[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m57[0m - [1mExtracted tickers from http://eoddata.com/stocklist/OTCBB/Z.htm for OTCBB exchange[0m
+[32m2022-11-17 20:09:30.219[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m61[0m - [1mCleaned the symbols and names by removing hyphens and additional letters[0m
+[32m2022-11-17 20:09:30.222[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m64[0m - [1mExtracted 8938 groups of company symbols and names:[0m
+[32m2022-11-17 20:09:30.225[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m68[0m - [1m8938 left after removing duplicates:[0m
+[32m2022-11-17 20:09:30.232[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m81[0m - [1mRemoved 4793 unqualified symbols:[0m
+[32m2022-11-17 20:09:30.234[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mget_companies[0m:[36m82[0m - [1mKept 4145 qualified symbols:[0m
+[32m2022-11-17 20:09:30.239[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m92[0m - [1m[+] Add the exchange next to symbol and name[0m
+[32m2022-11-17 20:09:30.248[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m103[0m - [1m[+] Join the company sets[0m
+[32m2022-11-17 20:09:30.251[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m107[0m - [1m[+] Create company dataframe[0m
+[32m2022-11-17 20:09:30.261[0m | [1mINFO    [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m111[0m - [1m[+] One last check to drop duplicate symbols and names:[0m
+[32m2022-11-17 20:09:30.272[0m | [32m[1mSUCCESS [0m | [36mmarketdata.tickers[0m:[36mcompanies[0m:[36m117[0m - [32m[1mRetrieved all the company stock symbols and names. Returning a pandas dataframe:[0m
+[32m2022-11-17 20:10:48.162[0m | [1mINFO    [0m | [36mmarketdata.models.db[0m:[36mcreate_marketdata_engine[0m:[36m34[0m - [1m[+] marketdata database engine created successfully[0m
+[32m2022-11-17 20:15:59.531[0m | [1mINFO    [0m | [36mmarketdata.models.db[0m:[36mcreate_marketdata_engine[0m:[36m34[0m - [1m[+] marketdata database engine created successfully[0m
+[32m2022-11-17 20:27:53.840[0m | [1mINFO    [0m | [36mmarketdata.models.db[0m:[36mcreate_marketdata_engine[0m:[36m34[0m - [1m[+] marketdata database engine created successfully[0m
+[32m2022-11-17 22:26:00.868[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 22:31:48.709[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 22:34:29.625[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 22:34:29.625[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 22:58:10.804[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:00:31.583[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:02:10.288[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:03:58.119[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:05:14.369[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:37:57.274[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
+[32m2022-11-17 23:38:33.448[0m | [32m[1mSUCCESS [0m | [36mmarketdata.models.sqlite_db[0m:[36m_query_symbols[0m:[36m60[0m - [32m[1m[+] All symbols retrieved[0m
